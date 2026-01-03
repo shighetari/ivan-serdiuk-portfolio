@@ -1,0 +1,19 @@
+@media print {
+  body {
+    background: white;
+  }
+
+  header,
+  footer {
+    display: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .print\:hidden {
+    display: none;
+  }
+}
